@@ -1,0 +1,23 @@
+{
+  "name": "tictactoe",
+  "private": true,
+  "dependencies": {
+    "react": "~0.13.3",
+    "es6-shim": "~0.32.3",
+    "underscore": "~1.8.3",
+    "material-design-lite": "~1.0.0"
+  },
+  "overrides": {
+    "bootstrap-sass": {
+      "main": [
+        "assets/stylesheets/_bootstrap.scss",
+        "assets/fonts/bootstrap/*",
+        "assets/javascripts/bootstrap.js"
+      ]
+    }
+  },
+  "devDependencies": {
+    "jasmine": "~2.3.4",
+    "es6-shim": "~0.32.3"
+  }
+}
